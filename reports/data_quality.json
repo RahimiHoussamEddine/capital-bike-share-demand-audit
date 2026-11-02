@@ -1,0 +1,32 @@
+{
+  "source": {
+    "url": "https://archive.ics.uci.edu/static/public/275/bike%2Bsharing%2Bdataset.zip",
+    "archive": "bike-sharing.zip",
+    "member": "hour.csv",
+    "bytes": 279992,
+    "sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+    "doi": "10.24432/C5W894",
+    "license": "CC BY 4.0"
+  },
+  "rows": 17379,
+  "catalog_listed_rows": 17389,
+  "archive_row_count_difference": 10,
+  "feature_count_in_source": 13,
+  "missing_cells": 0,
+  "duplicate_record_ids": 0,
+  "duplicate_timestamps": 0,
+  "missing_hour_slots": 165,
+  "target_components_match_total": true,
+  "target_component_mismatch_rows": 0,
+  "target_sum": 3292679,
+  "target_mean": 189.46308763450142,
+  "target_median": 142.0,
+  "timestamp_start": "2011-01-01T00:00:00",
+  "timestamp_end": "2012-12-31T23:00:00",
+  "modeling": {
+    "source_id_used_as_feature": false,
+    "casual_or_registered_used_as_feature": false,
+    "same_hour_weather_used_as_feature": false,
+    "row_level_forecasts_published": false
+  }
+}

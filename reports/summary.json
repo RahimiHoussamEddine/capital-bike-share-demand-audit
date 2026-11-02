@@ -1,0 +1,72 @@
+{
+  "dataset": "UCI Bike Sharing hourly file",
+  "rows": 17379,
+  "catalog_listed_rows": 17389,
+  "catalog_archive_row_count_difference": 10,
+  "target": "cnt",
+  "target_components": [
+    "casual",
+    "registered"
+  ],
+  "target_components_used_as_features": false,
+  "same_hour_weather_used_as_feature": false,
+  "forecast_mode": "rolling one-hour-ahead",
+  "metrics": [
+    {
+      "model": "last_hour",
+      "n_test": 3375,
+      "test_start": "2012-08-08T19:00:00",
+      "test_end": "2012-12-31T23:00:00",
+      "mae": 85.20503703703703,
+      "rmse": 129.5029277518323,
+      "wape": 0.34094905214534443,
+      "mean_error": 0.3677037037037037,
+      "r2": 0.6547213918851905
+    },
+    {
+      "model": "daily_seasonal",
+      "n_test": 3375,
+      "test_start": "2012-08-08T19:00:00",
+      "test_end": "2012-12-31T23:00:00",
+      "mae": 78.9202962962963,
+      "rmse": 132.552632174153,
+      "wape": 0.3158005811975135,
+      "mean_error": 1.101037037037037,
+      "r2": 0.6382677656928148
+    },
+    {
+      "model": "weekly_seasonal",
+      "n_test": 3375,
+      "test_start": "2012-08-08T19:00:00",
+      "test_end": "2012-12-31T23:00:00",
+      "mae": 64.14607407407408,
+      "rmse": 109.85009448907752,
+      "wape": 0.25668134085657274,
+      "mean_error": 8.700148148148148,
+      "r2": 0.7515658076719003
+    },
+    {
+      "model": "ridge",
+      "n_test": 3375,
+      "test_start": "2012-08-08T19:00:00",
+      "test_end": "2012-12-31T23:00:00",
+      "mae": 53.47543527120362,
+      "rmse": 80.58297543520827,
+      "wape": 0.21398264237419803,
+      "mean_error": 1.2870081625788983,
+      "r2": 0.8663105622316862
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "n_test": 3375,
+      "test_start": "2012-08-08T19:00:00",
+      "test_end": "2012-12-31T23:00:00",
+      "mae": 29.226803350295913,
+      "rmse": 47.31118211798022,
+      "wape": 0.11695142970468089,
+      "mean_error": -3.5261571819661968,
+      "r2": 0.9539172808114644
+    }
+  ],
+  "row_level_forecasts_published": false
+}

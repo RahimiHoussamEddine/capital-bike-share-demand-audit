@@ -1,0 +1,15 @@
+{
+  "dataset": "Bike Sharing",
+  "source_url": "https://archive.ics.uci.edu/static/public/275/bike%2Bsharing%2Bdataset.zip",
+  "doi": "10.24432/C5W894",
+  "citation": "Fanaee-T, H. (2013). Bike Sharing [Dataset]. UCI Machine Learning Repository.",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "archive_bytes": 279992,
+  "archive_sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+  "expected_sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+  "hourly_member": "hour.csv",
+  "rows": 17379,
+  "catalog_listed_rows": 17389,
+  "timestamp_start": "2011-01-01T00:00:00",
+  "timestamp_end": "2012-12-31T23:00:00"
+}
