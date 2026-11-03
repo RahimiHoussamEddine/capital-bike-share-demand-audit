@@ -1,7 +1,8 @@
 FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1
+    PYTHONUNBUFFERED=1 \
+    BIKE_SHARE_AUDIT_ROOT=/app
 WORKDIR /app
 
 COPY requirements.lock ./requirements.lock
